@@ -8,6 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        special: ['Poppins']
+      },
+      gradientColorStops: (theme) => ({
+        'purple-dark': '#301847',
+        'red-deep': '#C10214',
+      }),
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
