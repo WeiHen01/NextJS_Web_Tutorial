@@ -18,7 +18,7 @@ bun dev
 
 Open [http://localhost:9998](http://localhost:9998) with your browser to see the result.
 
-The port number can be referred from package.json.
+The port number can be referred from [package.json](https://github.com/WeiHen01/NextJS_Web_Tutorial/blob/master/package-lock.json).
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
