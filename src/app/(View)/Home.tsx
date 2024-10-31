@@ -16,8 +16,9 @@ const Home = () => {
                 <div className="grid grid-cols-2 items-center ">
                     <img src={Health.src} className="px-3 w-[570px]" alt="welcome" />
                     <div className="grid grid-cols-1">
-                        <p className="font-special text-white">Have you ever thought about your health?</p>
-                        <p className="font-special text-white">Get started now!</p>
+                        <p className="font-special text-white">This website is currently under construction.</p>
+                        <p className="font-special text-white">Please be patience while waiting.</p>
+                        <p className="font-special text-white">We are sorry for causing inconvenience.</p>
                     </div>
                 </div>
             </div>
