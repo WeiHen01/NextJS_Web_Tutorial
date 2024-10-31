@@ -1,7 +1,6 @@
 import React from "react";
 import Trademark from "../Constants/Trademark";
 import "./Style.css";
-import Image from 'next/image';
 
 const Header = () => {
 
@@ -11,7 +10,7 @@ const Header = () => {
                 {/** The Logo here */}
                 <div>
                     <a href = "/">
-                        <Image src = {Trademark.Trademarks} alt = "Logo" style={{ width: '8vw' }} />
+                        <img src = {Trademark.Trademarks.src} alt = "Logo" style={{ width: '8vw' }} />
                     </a>
                 </div>
                 

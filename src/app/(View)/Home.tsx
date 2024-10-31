@@ -10,7 +10,7 @@ const Home = () => {
         <MainLayout>
             <title>Next JS | Dental Appointment System</title>
             <Marquee speed={100} className=" font-special text-sm py-1" style={{ backgroundColor: '#FF4081', color: 'white'}}>
-                Welcome to Dental Appointment System!
+                Welcome to Dental Appointment System! This website is produced using Next JS as Framework.
             </Marquee>
             <div style = {{fontFamily: 'Poppins, sans-serif'}} className="bg-gradient-to-r from-purple-dark to-red-deep min-h-max h-max ">
                 <div className="grid grid-cols-2 items-center ">
