@@ -40,11 +40,19 @@ Each page route is defined based on **page.tsx** in a specific folder, for examp
 .... and so on
 
 --- app
+
+
     |- page.tsx -> The root directory where the url is 
+
+
     |- View 
+
        |-- Login
+
           |- page.tsx -> here is the page where url is determine as localhost:9998/View/Login ('Login' is recognised by filename of Login.tsx)
+
           |- Login.tsx
+
 
 
 If you want to hide the folder **view** from url so that the url will be localhost:9998/login instead of localhost:9998/view/login:
